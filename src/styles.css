@@ -54,29 +54,16 @@ body{
  
 
   /* Tech Stack Section  Starts */
-  .stacks {
-    width: 150px;
-    height: 60px;
+  .techStack{
+  display:flex;
+  flex-wrap:wrap;
+  max-width: 50%;
+  position:relative;
+  left:20%;
+  margin:50px;
+  padding:5px;
   
-    
-    color:#fff;
-    border-radius: 45px;
-    transition: all 0.3s;
-    
-    font-size: 1.2em;
-    font-weight: 550;
-    font-family: 'Montserrat', sans-serif;
   }
-  
-  .stacks:hover {
-   transform: translateX(4px);
-  }
-
-  .stackTitle{
-    font-family: 'Righteous', sans-serif;
-    font-weight: bold;
-  }
-
   /* Tech Stack Section  Ends */
 
 
