@@ -1,6 +1,9 @@
 ---
 import "../styles.css"
 
+
+
+
 ---
 
 <html lang="en">
@@ -11,6 +14,11 @@ import "../styles.css"
 		<meta name="generator" content={Astro.generator} />
 		<title>Ayush Mehrotra PortFolio</title>
 	</head>
+	<script>
+		if (window.innerWidth <= 768 && window.innerHeight <= 1024) {
+ alert("Looks Better In Desktop")
+} 
+	</script>
 	<body>
 		<navbar>
 			<div class="button-container">
@@ -63,7 +71,9 @@ import "../styles.css"
 			<hr />
 			<br />
 			<!-- Tech Stack Section Start Ends-->
+			<br />
 			<center><h1 class="project-title">***Project Section***</h1></center>
+			<br />
 			<section class=" ProjectSection">
 				<div class="container">
 					<div class="wrapper">

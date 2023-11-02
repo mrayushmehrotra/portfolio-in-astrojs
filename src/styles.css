@@ -55,11 +55,10 @@ body{
 
   /* Tech Stack Section  Starts */
   .techStack{
-  display:flex;
-  flex-wrap:wrap;
-  max-width: 50%;
+   
+ 
   position:relative;
-  left:25%;
+    left:5px;
   margin:50px;
   padding:5px;
   
