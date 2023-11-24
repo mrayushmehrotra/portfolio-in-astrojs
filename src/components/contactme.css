@@ -11,15 +11,6 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
-  .mainSocialDiv {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* any additional styles for smaller screens */
-  }
-}
-
 .mainSocialDiv {
   display: flex;
   justify-content: center;
