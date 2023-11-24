@@ -15,7 +15,7 @@ body {
   display: flex;
   background-color: #212121;
   width: 80%;
-  height: 15%;
+  height: 40%;
   position: sticky;
   left: 10%;
   align-items: center;
@@ -51,7 +51,21 @@ body {
 
 /* Navbar Ends */
 
+/* About Me  */
+.aboutMe {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe p {
+  font-size: 20px;
+}
+
+/* ABout Me ends  */
 /* Tech Stack Section  Starts */
+
 .techStack {
   position: relative;
   left: 5px;
