@@ -10,27 +10,27 @@ const Cards = () => {
           href="mailto:ayushmehrotra007@gmail.com?subject='From Portfolio'"
           class="emailSvg"
         >
-          <MailOpen size={120} />
+          <MailOpen color="lightgrey" size={110} />
         </a>
         <a href="https://t.me/Akaayush007" target="_blank" class="emailSvg">
-          <Send size={120} />
+          <Send color="lightgrey" size={110} />
         </a>
         <a
           href="https://instagram.com/mein.ayush.hoon"
           target="_blank"
           class="emailSvg"
         >
-          <Instagram size={120} />
+          <Instagram size={110} color="lightgrey" />
         </a>
         <a href="https://x.com/AYUSH070707" target="_blank" class="emailSvg">
-          <Twitter size={120} />
+          <Twitter size={110} color="lightgrey" />
         </a>
         <a
           href="https://github.com/mrayushmehrotra"
           target="_blank"
           class="emailSvg"
         >
-          <Github size={120} />
+          <Github size={110} color="lightgrey" />
         </a>
       </div>
     </>

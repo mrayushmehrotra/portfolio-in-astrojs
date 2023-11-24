@@ -1,10 +1,23 @@
 .contactMeTitle {
   display: flex;
+  position: absolute;
+  flex-direction: column;
+  left: 10%;
+  top: 10%;
   align-items: center;
   justify-content: center;
-  font-size: 120px;
+  font-size: 60px;
   color: rgb(161, 159, 159);
   font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .mainSocialDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* any additional styles for smaller screens */
+  }
 }
 
 .mainSocialDiv {
@@ -12,6 +25,11 @@
   justify-content: center;
   align-items: center;
   color: grey;
+}
+
+.text-contactMe {
+  transform: rotate(90deg);
+  gap: 2%;
 }
 
 .emailSvg:hover {

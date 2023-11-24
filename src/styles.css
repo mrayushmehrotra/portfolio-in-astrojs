@@ -52,15 +52,17 @@ body {
 /* Navbar Ends */
 
 /* About Me  */
-.aboutMe {
+.about {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.aboutMe p {
+.aboutMe {
   font-size: 20px;
+  font-weight: bolder;
+  color: grey;
 }
 
 /* ABout Me ends  */
