@@ -1,12 +1,8 @@
 .contactMeTitle {
   display: flex;
-  position: absolute;
-  flex-direction: column;
-  left: 10%;
-  top: -2%;
   align-items: center;
   justify-content: center;
-  font-size: 60px;
+  font-size: 80px;
   color: rgb(161, 159, 159);
   font-weight: bold;
 }
@@ -19,7 +15,6 @@
 }
 
 .text-contactMe {
-  transform: rotate(90deg);
   gap: 2%;
 }
 
