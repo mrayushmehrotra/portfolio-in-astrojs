@@ -1,5 +1,7 @@
 # Astro Starter Kit: Minimal
 
+## this is portfolio built in astrojs
+
 ```sh
 npm create astro@latest -- --template minimal
 ```
